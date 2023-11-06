@@ -37,6 +37,15 @@
 >     - Random Forest, Extra Trees, Gradient Boosting, Histogram-based Gradient Boosting, (XGBoost) (Gradient Boosting 방법은 Gradient Descent를 이용한 것)
 
 > #### Unsupervised Learning
+>
+> - Clustering(군집)
+>   - k-Means
+>     - cluster의 평균값(cluster center/centroid)을 랜덤으로 k개 정함 -> [각 샘플이 가장 가까운 centroid에 가서 cluster를 이룸 -> 다시 centroid를 구함] -> centroid에 변화가 없을 때까지 []구간 반복 -> k개의 cluster로 분류됨
+>     - elbow 방법으로 최적의 k값을 찾을 수 있음
+> 
+> - Dimensionality Reduction(차원축소)
+>   - Principal Component Analysis = PCA - Principal Component(주성분) : 데이터의 특징을 잘 표현하는 어떤 벡터
+>     - 여러 주성분 중 일부 주성분만을 선택해서 데이터의 dimension(feature)를 줄임
 
 
 > #### Reinforcement Learning
@@ -57,3 +66,5 @@
 - Hyperparameter tuning with AutoML
   - Grid Search : hyperparameter 탐색(값의 목록 전달) + cross validation
   - Random Search : hyperparameter 탐색(값의 범위 전달) + cross validation
+- Dimensionality Reduction을 하여 데이터의 dimension(feature)를 줄인 뒤, 다른 ML 알고리즘을 사용하여 훈련할 수 있음
+- 데이터의 dimension(feature)을 3개 이하로 줄이면, 시각화하기 좋음(3D or 2D로 표현 가능)
