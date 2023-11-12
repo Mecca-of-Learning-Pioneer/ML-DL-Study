@@ -36,7 +36,7 @@
 >     - 더 좋은 예측 결과를 만들기 위해 여러 개의 model 훈련
 >     - Random Forest, Extra Trees, Gradient Boosting, Histogram-based Gradient Boosting, (XGBoost) (Gradient Boosting 방법은 Gradient Descent를 이용한 것)
 
-> #### Unsupervised Learning
+> #### Unsupervised Learning(비지도 학습)
 >
 > - Clustering(군집)
 >   - k-Means
@@ -48,7 +48,7 @@
 >     - 여러 주성분 중 일부 주성분만을 선택해서 데이터의 dimension(feature)를 줄임
 
 
-> #### Reinforcement Learning
+> #### Reinforcement Learning(강화 학습)
 > - RL Study에서 진행
 
 #### Tip!
